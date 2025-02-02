@@ -4,12 +4,12 @@ public class task_2 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
-        System.out.print("\ntask_2\nInput n: ");
+        System.out.print("\ntask_2\nЧисло чисел: ");
         int n = in.nextInt();
         int sum = 0;
 
         for (int i = 0; i < n; i++) {
-            System.out.print("Input number " + (i + 1) + ": ");
+            System.out.print("Входное число " + (i + 1) + ": ");
             int number = in.nextInt();
             if (i % 2 == 0) {
                 sum += number;
