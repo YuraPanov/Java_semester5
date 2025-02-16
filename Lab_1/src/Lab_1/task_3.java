@@ -1,10 +1,12 @@
+package Lab_1;
+
 import java.util.Objects;
 import java.util.Scanner;
 
 public class task_3 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        System.out.print("\ntask_3\nInput coordinates:\n");
+        System.out.print("\nLab_1.task_3\nInput coordinates:\n");
         int x = in.nextInt();
         int y = in.nextInt();
         int currentX = 0;
